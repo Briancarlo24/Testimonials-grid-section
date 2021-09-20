@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+/*******************COLORS************************/
+/*### Primary*/
+/*### Neutral*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.attribution a {
+  color: #3e52a3;
+  text-decoration: none;
+}
+
+body {
+  background-color: #ecf2f8;
+  padding: 1.5rem;
+}
+
+#main {
+  display: -ms-grid;
+  display: grid;
+  margin: 7% auto;
+      grid-template-areas: "t1" "t2" "t3" "t4" "t5";
+  grid-gap: 1.5rem;
+  place-content: center;
+  min-width: 270px;
+  max-width: 400px;
+}
+
+section {
+  padding: 1.5rem 2rem 2rem;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0px 0px 18px -10px #cfcfcf;
+          box-shadow: 0px 0px 18px -10px #cfcfcf;
+}
+
+section img {
+  height: 2rem;
+  width: 2rem;
+  display: inline-block;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 2rem;
+}
+
+section h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+section p {
+  font-size: 13px;
+}
+
+.person {
+  display: inline-block;
+  margin: 0 0 1rem 0.5rem;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.person .status {
+  font-weight: 500;
+  font-size: 0.85em;
+  opacity: 50%;
+}
+
+.reviews {
+  font-weight: 500;
+  line-height: 1.4;
+  opacity: 70%;
+}
+
+.t1 {
+  background-color: #7541c8;
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: right 10% top;
+  background-size: 100px 100px;
+  color: white;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: t1;
+}
+
+.t1 .review-1 {
+  margin-right: 1em;
+}
+
+.t2 {
+  background-color: #48556a;
+  color: white;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: t2;
+}
+
+.t3 {
+  background-color: white;
+  color: #48556a;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: t3;
+}
+
+.t4 {
+  background-color: #19212e;
+  color: white;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: t4;
+}
+
+.t5 {
+  background-color: white;
+  color: #48556a;
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: t5;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,21 @@
+@media (min-width: 1200px) {
+  body {
+    padding: 0;
+  }
+  #main {
+        grid-template-areas: "t1 t1 t2 t5" "t3 t4 t4 t5";
+    min-width: 1100px;
+    max-width: 73.5%;
+    margin: 7% auto;
+  }
+  .t1,
+  .t4 {
+    max-width: 550px;
+  }
+  .t2,
+  .t3,
+  .t5 {
+    max-width: 260px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
